@@ -1,0 +1,224 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:blanchedalmond;
+    font-family: 'Alkatra', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vollkorn', serif;
+}
+@media screen and (max-width:400px) {
+    .header{
+      width: 100%;
+      width:column;
+    }
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.navbar{
+  display: flex;
+  margin: 10px;
+}
+.navbar li{
+    text-decoration: none;
+    padding:10px;
+    list-style-type: none;
+    margin:0px 30px;
+}
+.navbar li a:hover{
+    color:red;
+    text-decoration:underline;
+    transition:0.5s ;
+}
+.navbar li,a{
+    color:black;
+    font-size:25px;
+}
+.cart{
+    margin:10px;
+    font-size:35px;
+    background-color: #ff7200;
+    color:whitesmoke;
+    padding:8px;
+    border-radius: 13px;
+    width:120px;
+    height:50px;
+    text-align:center;
+}
+.cart a{
+    color:whitesmoke;
+}
+.cart a:hover{
+    color:rgb(82, 33, 33);
+    transition:0.5s;
+}
+.section{
+    display:flex;
+    justify-content: space-between;
+}
+.head{
+    margin-top: 70px;
+}
+.heading{
+    font-size:75px;
+}
+.head p{
+    font-size:25px;
+    width:600px;
+   font-style:italic;
+}
+.span{
+    color:rgb(247, 76, 9);
+}
+.btn{
+    background-color:#ff7200;
+    color:rgb(238, 210, 210);
+    border-radius: 10px;
+    text-align: center;
+    font-size:20px;
+    margin: 30px 60px;
+    padding:10px;
+    position:absolute;
+    box-shadow: 4px 4px 4px 4px  #e6a571;
+}
+.btn:hover{
+    font-size: large;
+    box-shadow: 7px 7px 7px 7px #ac6b35;
+}
+.ing{
+    margin:30px;
+    margin-top: 50px;
+}
+.ing h1{
+    font-size: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ing p{
+    font-size:27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top:15px
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color:rgb(248, 244, 238);
+    display: flex;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    border-radius: 16px;
+    box-shadow:4px 4px 4px 4px rgb(204, 197, 188);
+    width:300px;
+
+}
+.menu p{
+    text-align: center;
+    margin-top:10px;
+}
+.menu .p{
+    margin-top: 19px;
+    margin-left:12px;
+}
+.menu:hover{
+    box-shadow: 9px 8px 8px 8px rgb(204, 197, 188);
+    font-size:large;
+}
+.section-second{
+    display:flex;
+    justify-content:space-between;
+}
+.second-heading{
+    margin-top: 200px;
+}
+.h{
+    margin-bottom: 20px;
+    font-size:55px;
+}
+.second-heading p{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.most{
+    margin:30px 20px;
+}
+.most h1{
+    font-size:50px;
+}
+.most p{
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+.ram{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.ram img{
+    border-radius: 15px;
+}
+.star{
+    color:#ff7200;
+    text-align: center;
+}
+.ranj{
+    background-color: rgb(212, 203, 194);
+    padding:0px;
+    margin: 0px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(39, 36, 29);
+    cursor: pointer;
+}
+.ranj:hover{
+    box-shadow: 6px 6px 6px 6px rgb(138, 112, 112);
+    cursor: pointer;
+}
+.ranji{
+    background-color: rgb(212, 203, 194);
+    padding:0px;
+    margin: 0px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(39, 36, 29);
+}
+.ranji:hover{
+    box-shadow: 6px 6px 6px 6px rgb(138, 112, 112);
+    cursor: pointer;
+}
+.spa{
+    color:tomato;
+    font-size:25px;
+    margin-left: 178px;
+    margin-top: -40px;
+    position:absolute;
+    text-align: center;
+}
+.ram p{
+    display:block;
+    width:250px;
+    text-align: center;
+}
+.service{
+    display:flex;
+    justify-content: space-between;
+}
+.html{
+    margin:30px;
+}
+.about{
+    list-style: none;
+    color:rgb(25, 37, 37);
+}
+.html h1{
+   color:red;
+}
+.about li a:hover{
+   color:#ff7200;
+}
